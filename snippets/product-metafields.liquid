@@ -1,0 +1,15 @@
+{% if product.metafields.custom.manufacturer or
+      product.metafields.custom.material or
+      product.metafields.custom.care_instructions %}
+  <div class="product-specs">
+    {% if product.metafields.custom.manufacturer %}
+      <p><strong>Manufacturer:</strong> {{ product.metafields.custom.manufacturer.value }}</p>
+    {% endif %}
+    {% if product.metafields.custom.material %}
+      <p><strong>Material:</strong> {{ product.metafields.custom.material.value }}</p>
+    {% endif %}
+    {% if product.metafields.custom.care_instructions %}
+      <p><strong>Care Instructions:</strong> {{ product.metafields.custom.care_instructions.value }}</p>
+    {% endif %}
+  </div>
+{% endif %}
