@@ -47,10 +47,10 @@ It demonstrates a scalable and admin-friendly approach to extending Shopify’s 
 ## 🖼️ Screenshots
 
 ### Product Page Output
-![Product Page with Custom Metafields](screenshots/product-page.png)
+![Product Page with Custom Metafields](screenshots/Shopify-product.png)
 
 ### Product Metafields in Admin
-![Product Metafields Admin](screenshots/metafields-admin.png)
+![Product Metafields Admin](screenshots/Product-admin.png)
 
 > 📌 *Screenshots are taken from a Shopify Development Store.*
 
